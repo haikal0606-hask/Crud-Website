@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6fd2bd;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.btn-edit {
+    background-color: #43bc439a;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btn-delete {
+    margin: 5px;
+    background-color: #1e1313;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.search-form{
+    display: flex;
+    justify-content: end;
+    padding-right: 200px;
+}
+
+.search-form input{
+    margin: auto 0;
+    align-self:flex-start
+}
+
+
+
